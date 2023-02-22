@@ -1,0 +1,93 @@
+.wrapper {
+    padding: 16px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.heading {
+    padding: 0 8px;
+    margin-bottom: 8px;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.more-btn {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--primary);
+    padding: 0px 8px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+// account preview
+.contain {
+    padding: 20px;
+    margin-top: -8px;
+    width: 320px;
+    color: var(--primary-text-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.follow-btn {
+    padding: 6px;
+}
+
+.body {
+    margin-top: 12px;
+}
+
+.nickname {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    line-height: 1.5;
+}
+
+.check {
+    position: relative;
+    top: -4px;
+    font-size: 1.4rem;
+    margin-left: 4px;
+    color: rgb(32, 213, 236);
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.statistic {
+    margin-top: 8px;
+    font-size: 1.7rem;
+}
+
+.value ~ .value {
+    margin-left: 8px;
+}
+
+.label {
+    margin-left: 4px;
+    color: var(--secondary-text-color);
+}
+
+.extra {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    font-weight: 400;
+    font-size: 1.4rem;
+}

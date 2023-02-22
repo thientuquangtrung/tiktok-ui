@@ -1,0 +1,54 @@
+.switch-btn {
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0px;
+    position: relative;
+    overflow: visible;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    background: rgba(22, 24, 35, 0.12);
+    border-radius: 100px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+
+    &.open {
+        background: rgb(11, 224, 155);
+    }
+}
+
+.thumb {
+    position: absolute;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    right: 2px;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 2px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+
+    &.open {
+        right: unset;
+        left: calc(100% - 2px);
+    }
+}

@@ -1,0 +1,36 @@
+.scroll-wrap {
+    width: 356px;
+}
+
+.largeView {
+    &.scroll-wrap {
+        width: 240px;
+    }
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.wrapper {
+    width: inherit;
+    padding: 20px 8px 26px 8px;
+    z-index: 99;
+}
+
+.sidebar-cta {
+    padding: 20px 8px 24px 8px;
+    border-top: 1px solid var(--border-color);
+
+    .cta-text {
+        color: var(--normal-text-color);
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    .cta-btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
